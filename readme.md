@@ -9,7 +9,8 @@ This is a Mesa-based swarm model where agents search for food under heat and ene
 * States: RESTING, EXPLORING, RETURNING
 
 ## Initial Result
-This would be updated and further analysis and explainations done as this is an ongoing work.
+This would be updated and further analysis and explainations done as this is an ongoing project.
+![Simulation Result](doc/Initial_run_result.png)
 
 ## Setup and running
 ``` bash
