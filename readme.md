@@ -8,7 +8,8 @@ This is a Mesa-based swarm model where agents search for food under heat and ene
 * Pheromone-based coordination (stigmergy)
 * States: RESTING, EXPLORING, RETURNING
 
-## Result
+## Initial Result
+This would be updated and further analysis and explainations done as this is an ongoing projects and Algorithm is still adjusted.
 ![Simulation Result](doc/Initial_run_result.png)
 
 ## Setup and running
