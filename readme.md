@@ -72,3 +72,6 @@ pip install -r requirements.txt
 solara run create.py
 ```
 
+## License
+
+MIT License
