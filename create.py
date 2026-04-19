@@ -100,7 +100,8 @@ class CreatureAgent(mesa.Agent):
                 self.state = "EXPLORING"
 
         elif self.state == "EXPLORING":
-            if self.temperature > T_RETURN: ### I changed this to remove hardcoding to enable flexibility in adjusting the return temperation
+            if self.temperature > T_RETURN or self.energy < 25: ### I changed this to remove hardcoding to enable flexibility in adjusting the return temperation
+                ### Added new return logic for a more dynamic return trigger based ion low energy levels. 
                 self.state = "RETURNING"
 
         elif self.state == "RETURNING":
