@@ -9,7 +9,9 @@ This is a Mesa-based swarm model where agents search for food under heat and ene
 * States: RESTING, EXPLORING, RETURNING
 
 ## Model Architecture & Logic
-![Architecture](doc/Swarm-architecture.png)
+<p align="center">
+  <img src="doc/Swarm-architecture.png" width="550">
+</p>
 
 ### 1. Agent State
 - **RESTING** : Agent stays at the nest to retain body temperature($T_i$). It then transitions to **EXPLORING** when temperature reaches minimum safe level $T_{min}$
@@ -42,7 +44,9 @@ An agent dies if:
 | Critical Temp (Tcritical) | 50 | Death threshold |
 
 ## Stigmergy Working
-![Simulation Result](doc/stigmergy.png)
+<p align="center">
+  <img src="doc/stigmergy.png" width="550">
+</p>
 
 ## Experiment Result
 Detailed screenshots of multiple runs are available in `/docs/results`.
